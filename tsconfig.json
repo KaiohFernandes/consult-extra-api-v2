@@ -5,7 +5,10 @@
     "target": "es2019",
     "esModuleInterop": true,
     "rootDir": "src",
-    "baseUrl": "src/main/server.ts"
+    "baseUrl": "src/main/server.ts",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["./ormconfig.js"]
 }

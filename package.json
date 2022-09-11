@@ -24,7 +24,6 @@
     "eslint-plugin-promise": "^6.0.0",
     "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
-    "prisma": "^4.3.1",
     "ts-node": "^10.9.1",
     "typescript": "^4.7.4"
   },
@@ -38,6 +37,9 @@
     "express-jwt": "^7.7.5",
     "graphql": "^16.6.0",
     "graphql-tools": "^8.3.6",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.8.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.9"
   }
 }
