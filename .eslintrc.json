@@ -5,14 +5,10 @@
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint"],
-  "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "prettier"
-  ],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "prettier"],
 
   "rules": {
-    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
     "no-console": 0,
     "class-methods-use-this": "off",
@@ -21,7 +17,7 @@
     "import/prefer-default-export": "off",
     "no-useless-constructor": "off",
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": ["error"],
+    "@typescript-eslint/no-unused-vars": ["off"],
     "no-empty-function": "off"
   },
 

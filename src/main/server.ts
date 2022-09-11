@@ -1,6 +1,7 @@
 import { setupApp } from "./config/setupApp"
 import { envConfig } from "./config/env"
 import { setupApolloServer } from "./graphql/apollo"
+import { createConnection } from "typeorm"
 
 const server = async () => {
   envConfig()
@@ -13,4 +14,6 @@ const server = async () => {
   })
 }
 
-server()
+createConnection().then(() => {
+  server()
+})
